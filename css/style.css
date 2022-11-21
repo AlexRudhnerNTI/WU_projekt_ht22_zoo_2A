@@ -1,0 +1,31 @@
+#grid_wrapper {
+    display: grid;
+    height: 100vh;
+    grid-area: 
+    "he"
+    "nav"
+    "ar"
+    "fo";
+
+    grid-template-rows: 100px 50px 300px 100px;
+}
+
+header {
+    grid-area: he;
+    background-color: antiquewhite;
+}
+
+nav {
+    grid-area: na;
+    background-color: aqua;
+}
+
+article {
+    grid-area: ar;
+    background-color: brown;
+}
+
+footer {
+    grid-area: fo;
+    background-color: blueviolet;
+}
