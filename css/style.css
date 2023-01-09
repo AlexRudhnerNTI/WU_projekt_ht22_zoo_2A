@@ -105,7 +105,7 @@ p {
 
 .personal {
     display: block;
-    block-size 20px;
+    block-size: 20px;
     height: 200px;
     width: 200px;
     border-radius: 10px;
@@ -164,8 +164,43 @@ a:link {
 
 h5 {
     color: aliceblue;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 200px;
+
 }
 
 h6 {
     color: aliceblue;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.meny {
+    border: solid;
+    border-radius: 10px;
+    border-color: rgb(249, 89, 75);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    margin: 50px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background: rgba(0, 0, 0, 0.85);
+    
+}
+
+#meny_rubrik {
+    padding-top: 30px;
+}
+
+
+#restaurang {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
 }
